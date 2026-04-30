@@ -1,50 +1,39 @@
-# [PROJECT_NAME] Constitution
-<!-- Example: Spec Constitution, TaskFlow Constitution, etc. -->
+<!--
+Sync Impact Report:
+- Version change: none → 1.0.0
+- List of modified principles: none (initial fill)
+- Added sections: Core Principles (5), Restricciones Técnicas, Proceso de Desarrollo, Governance
+- Removed sections: none
+- Templates requiring updates (✅ updated / ⚠ pending): plan-template.md (✅ aligned), spec-template.md (✅ aligned), tasks-template.md (✅ aligned)
+- Follow-up TODOs: none
+-->
+
+# Demo Universidad Spect_Kit Constitution
 
 ## Core Principles
 
-### [PRINCIPLE_1_NAME]
-<!-- Example: I. Library-First -->
-[PRINCIPLE_1_DESCRIPTION]
-<!-- Example: Every feature starts as a standalone library; Libraries must be self-contained, independently testable, documented; Clear purpose required - no organizational-only libraries -->
+### I. Simplicidad del Código
+El código debe ser simple, limpio y fácil de entender, evitando complejidad innecesaria para facilitar el aprendizaje universitario.
 
-### [PRINCIPLE_2_NAME]
-<!-- Example: II. CLI Interface -->
-[PRINCIPLE_2_DESCRIPTION]
-<!-- Example: Every library exposes functionality via CLI; Text in/out protocol: stdin/args → stdout, errors → stderr; Support JSON + human-readable formats -->
+### II. Programación Funcional
+Utilizar paradigmas de programación funcional, enfatizando funciones puras, inmutabilidad y composición de funciones.
 
-### [PRINCIPLE_3_NAME]
-<!-- Example: III. Test-First (NON-NEGOTIABLE) -->
-[PRINCIPLE_3_DESCRIPTION]
-<!-- Example: TDD mandatory: Tests written → User approved → Tests fail → Then implement; Red-Green-Refactor cycle strictly enforced -->
+### III. Comentarios en Español
+Todos los comentarios y documentación del código deben estar en español para facilitar la comprensión y el aprendizaje.
 
-### [PRINCIPLE_4_NAME]
-<!-- Example: IV. Integration Testing -->
-[PRINCIPLE_4_DESCRIPTION]
-<!-- Example: Focus areas requiring integration tests: New library contract tests, Contract changes, Inter-service communication, Shared schemas -->
+### IV. Enfoque Educativo
+Como proyecto demo universitario, priorizar el aprendizaje y la demostración de conceptos sobre la complejidad técnica.
 
-### [PRINCIPLE_5_NAME]
-<!-- Example: V. Observability, VI. Versioning & Breaking Changes, VII. Simplicity -->
-[PRINCIPLE_5_DESCRIPTION]
-<!-- Example: Text I/O ensures debuggability; Structured logging required; Or: MAJOR.MINOR.BUILD format; Or: Start simple, YAGNI principles -->
+### V. Calidad y Pruebas
+Incluir pruebas básicas y asegurar la calidad del código mediante revisiones y mantenibilidad.
 
-## [SECTION_2_NAME]
-<!-- Example: Additional Constraints, Security Requirements, Performance Standards, etc. -->
+## Restricciones Técnicas
+Usar lenguajes y herramientas simples; Evitar frameworks pesados; Enfocarse en conceptos fundamentales de programación.
 
-[SECTION_2_CONTENT]
-<!-- Example: Technology stack requirements, compliance standards, deployment policies, etc. -->
-
-## [SECTION_3_NAME]
-<!-- Example: Development Workflow, Review Process, Quality Gates, etc. -->
-
-[SECTION_3_CONTENT]
-<!-- Example: Code review requirements, testing gates, deployment approval process, etc. -->
+## Proceso de Desarrollo
+Desarrollo iterativo con TDD básico; Revisiones de pares; Documentación continua en español.
 
 ## Governance
-<!-- Example: Constitution supersedes all other practices; Amendments require documentation, approval, migration plan -->
+Esta constitución establece las reglas fundamentales del proyecto. Las enmiendas requieren consenso y documentación de cambios.
 
-[GOVERNANCE_RULES]
-<!-- Example: All PRs/reviews must verify compliance; Complexity must be justified; Use [GUIDANCE_FILE] for runtime development guidance -->
-
-**Version**: [CONSTITUTION_VERSION] | **Ratified**: [RATIFICATION_DATE] | **Last Amended**: [LAST_AMENDED_DATE]
-<!-- Example: Version: 2.1.1 | Ratified: 2025-06-13 | Last Amended: 2025-07-16 -->
+**Version**: 1.0.0 | **Ratified**: 2026-03-13 | **Last Amended**: 2026-03-13

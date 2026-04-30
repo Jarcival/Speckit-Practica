@@ -1,0 +1,4 @@
+body { background: #f7f9fc; }
+main { min-height: 100vh; }
+#classes-list table { margin-bottom: 0; }
+#empty-message { display: none; }
